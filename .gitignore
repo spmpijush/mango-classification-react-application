@@ -1,0 +1,4 @@
+*.log
+/mango_datasets
+/testing_images
+/saved_models

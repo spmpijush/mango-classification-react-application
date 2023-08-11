@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project_header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(208, 204, 204);
+    margin: 10px;
+    padding: 8px 15px 3px 15px;
+}
+
+/* .add_button_edit button {
+    border: none;
+    padding: 6px 10px;
+    background-color: rgb(67, 242, 70);
+    background-color: rgb(245, 58, 58);
+} */
+
+.tableheightstyle {
+    height: 569px;
+    overflow: scroll;
+}
+
+.tableheightstyle ::-webkit-scrollbar {
+    display: none;
+}
+
+.image_bg_box {
+    /* background-image: url("./bg_image.jpg"); */
+    background:
+        linear-gradient(rgba(0, 0, 0, .5),
+            rgba(0, 0, 0, .5)),
+        url('./bg_image.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.apply_glassmorphic {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* margin-top: 10px */
+}
+
+.mango_name_box {
+    background-color: rgb(203, 245, 249);
+    padding: 10px 0;
+}
+
+.mango_name_list {
+    display: flex;
+    padding-left: 10px;
+}
+
+.mango_name_list .m_list_num {
+    padding: 0px 10px
+}
+
+
+/* section_1_camera_and_image */
+.drag_and_drop_and_camera {
+    height: 250px;
+    /* border: 1px solid rgb(106, 146, 232); */
+}
+
+.content_main_box {
+    /* border: 2px solid rgb(255, 44, 251); */
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.inner_border {
+    border: 1px solid rgb(105, 19, 191);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #504b4b;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px
+}
+
+.drag_and_drop_and_camera button {
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.buttons_for_camera_and_upload {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.open_camera_hendal video {
+    width: 100%;
+    height: 250px;
+}
+
+/* .openclosecamerabtn_box {
+    display: flex;
+    justify-content: start !important;
+} */
+.take_picture_box {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.take_picture_box button {
+    margin: 3px 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+.openclosecamerabtn {
+    margin: 10px 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+}
+
+/* image_box */
+.image_box {
+    width: 100%;
+    height: 250px
+}
+
+/* .button_for_submit {
+    margin: 10px 0;
+} */
+
+.prediction_btn {
+    margin: 10px 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/* section_3 */
+.section_3 {
+    height: 309px;
+}
+
+.section_3 .result_box {
+    height: 250px;
+}
+
+.button_for_analyse {
+    margin: 10px 0;
+}
+
+.result_show_box {
+    margin-top: 50px;
+}
+
+.mango_name,
+.confidence {
+    display: flex;
+    justify-content: space-around;
+}
+
+.delete_btn_style i {
+    cursor: pointer;
+}
